@@ -2,6 +2,7 @@ services:
   - type: web
     name: spree-commerce
     env: ruby
+    rubyVersion: 3.2.0
     buildCommand: bundle install && bundle exec rails assets:precompile
     startCommand: bundle exec rails server -p $PORT
     plan: free
