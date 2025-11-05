@@ -1,0 +1,22 @@
+# Fichiers à ignorer pour Vercel
+/admin
+/api
+/core
+/emails
+/sample
+/cli
+/docs
+/spec
+*.md
+!README.md
+.git
+.gitignore
+cloudflare-tunnel/
+*.ps1
+*.bat
+*.sh
+DEPLOY-*.md
+INSTRUCTIONS-*.txt
+STATUS-*.txt
+RESUME-*.txt
+

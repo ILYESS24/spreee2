@@ -1,0 +1,23 @@
+{
+  "name": "spree-cloudflare-workers",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers deployment for Spree Commerce",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "tail": "wrangler tail",
+    "build": "echo 'No build needed for Workers'"
+  },
+  "keywords": [
+    "spree",
+    "cloudflare",
+    "workers",
+    "ecommerce"
+  ],
+  "author": "",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
+
